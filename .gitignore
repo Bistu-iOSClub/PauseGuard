@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Xcode user state
+xcuserdata/
+*.xcuserstate
+
+# Build products
+.build/
+DerivedData/
+build/
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Dependency managers
+Carthage/Build/
+Pods/
+
+# Local tooling and agent output
+.cache/
+.task/
+.codegraph/
+.ai/worktrees/
+perf-artifacts/
+buildServer.json
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+credentials.json

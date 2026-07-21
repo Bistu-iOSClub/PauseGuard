@@ -1,0 +1,15 @@
+[team]
+name = "ci-triage"
+description = "Optional CI preset: primary agent, failure triage, and local build verification"
+
+[[members]]
+role = "main"
+description = "Own diagnosis, fix integration, and final evidence"
+
+[[members]]
+role = "ci-triage-agent"
+description = "Cluster failures and identify the first root cause"
+
+[[members]]
+role = "build-fix-agent"
+description = "Reproduce and close the local build loop"

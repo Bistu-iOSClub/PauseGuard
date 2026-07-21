@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "codegraph": {
+      "command": "codegraph",
+      "args": ["serve", "--mcp"]
+    },
+    "xcode": {
+      "command": "xcrun",
+      "args": ["mcpbridge"]
+    },
+    "xcodebuildmcp": {
+      "command": "npx",
+      "args": ["-y", "xcodebuildmcp@latest", "mcp"]
+    }
+  }
+}

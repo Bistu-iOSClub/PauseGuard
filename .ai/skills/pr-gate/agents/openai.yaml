@@ -1,0 +1,4 @@
+interface:
+  display_name: "PauseGuard PR Gate"
+  short_description: "Enforce PauseGuard pull request policy"
+  default_prompt: "Use $pr-gate to verify every mandatory gate before pushing code or creating a pull request."
