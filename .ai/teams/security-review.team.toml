@@ -1,0 +1,15 @@
+[team]
+name = "security-review"
+description = "Optional high-risk preset for security review and durable decision records"
+
+[[members]]
+role = "main"
+description = "Own implementation, integration, and final risk decision"
+
+[[members]]
+role = "security-agent"
+description = "Review privacy, permission, storage, logging, and network risks"
+
+[[members]]
+role = "doc-adr-agent"
+description = "Record consequential architecture decisions"

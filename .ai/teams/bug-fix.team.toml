@@ -1,0 +1,19 @@
+[team]
+name = "bug-fix"
+description = "Optional bug-fix preset: primary agent, build diagnosis, regression tests, and architecture review"
+
+[[members]]
+role = "main"
+description = "Reproduce, diagnose, implement, integrate, and verify"
+
+[[members]]
+role = "build-fix-agent"
+description = "Classify build errors and verify compiler fixes"
+
+[[members]]
+role = "test-agent"
+description = "Add focused regression tests"
+
+[[members]]
+role = "arch-guard-agent"
+description = "Review layer-boundary impact"

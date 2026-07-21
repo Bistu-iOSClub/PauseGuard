@@ -1,0 +1,23 @@
+[team]
+name = "pr-readiness"
+description = "Optional PR preset for focused review, architecture checks, and delivery evidence"
+
+[[members]]
+role = "main"
+description = "Own final diff, commit scope, and handoff"
+
+[[members]]
+role = "pr-response-agent"
+description = "Address selected review feedback"
+
+[[members]]
+role = "arch-guard-agent"
+description = "Check architecture boundaries"
+
+[[members]]
+role = "test-agent"
+description = "Assess regression coverage"
+
+[[members]]
+role = "pr-gate"
+description = "Enforce branch, identity, issue, quality, UI, Actions, and no-auto-merge rules"

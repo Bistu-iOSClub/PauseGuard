@@ -1,0 +1,19 @@
+[team]
+name = "new-feature"
+description = "Optional feature preset: primary implementation, UI, tests, and architecture review"
+
+[[members]]
+role = "main"
+description = "Own scope, primary flow, integration, and verification"
+
+[[members]]
+role = "ui-implementation-agent"
+description = "Implement and visually verify SwiftUI"
+
+[[members]]
+role = "test-agent"
+description = "Add relevant unit or integration tests; UI acceptance is manual"
+
+[[members]]
+role = "arch-guard-agent"
+description = "Review module boundaries"

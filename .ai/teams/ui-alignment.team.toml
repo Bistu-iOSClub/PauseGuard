@@ -1,0 +1,15 @@
+[team]
+name = "ui-alignment"
+description = "Optional UI preset for implementation, visual verification, and focused review"
+
+[[members]]
+role = "main"
+description = "Own implementation and integration"
+
+[[members]]
+role = "ui-implementation-agent"
+description = "Translate design context into SwiftUI and verify visuals"
+
+[[members]]
+role = "arch-guard-agent"
+description = "Review component ownership and dependencies"

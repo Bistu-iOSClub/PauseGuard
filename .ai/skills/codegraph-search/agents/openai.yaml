@@ -1,0 +1,4 @@
+interface:
+  display_name: "CodeGraph 代码检索"
+  short_description: "强制通过 CodeGraph MCP 检索和分析项目源码"
+  default_prompt: "使用 CodeGraph MCP 检索 PauseGuard 源码、定位符号并分析影响范围。"
