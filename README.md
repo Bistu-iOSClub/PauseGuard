@@ -26,7 +26,7 @@ xcodebuild test -project PauseGuard.xcodeproj -scheme PauseGuard \
   -only-testing:PauseGuardTests
 ```
 
-项目允许保留、编写和由人工运行 XCUITest，但 Agent 禁止自行执行 XCUITest、脚本化模拟器交互或其他 UI 自动化。涉及 UI 的改动仍必须由团队成员完成人工视觉验收，自动化结果不能代替视觉验收。
+项目允许保留、编写和由人工运行 XCUITest，但 脚本化模拟器交互或其他 UI 自动化。涉及 UI 的改动仍必须由团队成员完成人工视觉验收，自动化结果不能代替视觉验收。
 
 ## CodeGraph 代码检索
 
